@@ -1,15 +1,13 @@
+ import java.util.Scanner;
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("test");
-
-        int sum = add(1, 2);
-        System.out.println("test");
-        System.out.println("test");
-    }
-
-    public static int add(int input1, int input2) {
-        return input1 + input2;
+         Scanner scanner = new Scanner(System.in);
+         System.out.println("Name Please");
+         String name = scanner.nextLine();
+         System.out.println("Enter Age");
+         int x = scanner.nextInt();
+         System.out.println(name);
+         System.out.println(x);
 
     }
 }
