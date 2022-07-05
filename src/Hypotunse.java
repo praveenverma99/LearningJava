@@ -2,11 +2,23 @@ import java.util.Scanner;
 
 public class Hypotunse {
     public static void main(String[] args) {
-      System.out.println(sum(2, 3));
-    }
+        double perpendicular;
+        double base;
+        double hypotunse;
 
-    public static int sum(int val1 , int val2) {
-        return val1 + val2;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter perpendicular of triangle");
+        perpendicular = scanner.nextDouble();
+
+        System.out.println("Enter Base of triangle");
+        base = scanner.nextDouble();
+
+        hypotunse = calculateHypotunse( perpendicular , base );
+        System.out.println(hypotunse);
+    }
+    public static double calculateHypotunse(double perpendicular , double base) {
+        return Math.sqrt((perpendicular*perpendicular) + (base*base)) ;
     }
 
 }
