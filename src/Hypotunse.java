@@ -16,6 +16,8 @@ public class Hypotunse {
 
         hypotunse = calculateHypotunse( perpendicular , base );
         System.out.println(hypotunse);
+
+        scanner.close();
     }
     public static double calculateHypotunse(double perpendicular , double base) {
         return Math.sqrt((perpendicular*perpendicular) + (base*base)) ;
