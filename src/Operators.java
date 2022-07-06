@@ -7,10 +7,10 @@ public class Operators {
         System.out.println("You are playing a game ! Press q or Quit ");
         String response = scanner.next();
 
-        if(!response.equals("q") && !response.equals("Q")) {
+        if(response.equals("q") && response.equals("Q")) {
             System.out.println("Both condition fulfilled");
         }
-        else if (!response.equals("q") || !response.equals("Q")) {
+        else if (response.equals("q") || response.equals("Q")) {
             System.out.println("Either condition is fulfilled");
         }
         else {
