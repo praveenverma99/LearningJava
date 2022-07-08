@@ -12,7 +12,7 @@ public class Stringmethods {
            // boolean result = name.isEmpty();
         //String result = name.toLowerCase();
         //String result = name.toUpperCase();
-        //String result = name.replace("e", "a");
+        String result = name.replace("e", "a");
 
         System.out.println(result);
     }
