@@ -5,9 +5,17 @@ public class Methods {
        int z = add(x,y);
         System.out.println(z);
     }
-       static int add (int x, int y){
+    public static int add (int x, int y){
         int z = x + y ;
         return z;
-       }
+    }
+
+    public int add (int x, int y , int k){
+        int z = x + y  + k;
+        return z;
+    }
+
+
+
 }
 
