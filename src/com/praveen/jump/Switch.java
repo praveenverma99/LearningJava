@@ -1,3 +1,5 @@
+package com.praveen.jump;
+
 public class Switch {
     public static void main(String[] args) {
         String day = "Saturday";

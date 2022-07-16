@@ -1,3 +1,5 @@
+package com.praveen.array;
+
 import java.util.Scanner;
 
 public class Array {

@@ -1,3 +1,5 @@
+package com.praveen.string;
+
 import java.util.Locale;
 
 public class Stringmethods {

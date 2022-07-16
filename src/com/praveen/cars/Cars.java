@@ -1,3 +1,5 @@
+package com.praveen.cars;
+
 public class Cars{
             String make = "Chevrolet";
            String model = "coupe" ;
