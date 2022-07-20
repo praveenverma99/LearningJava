@@ -4,7 +4,7 @@ public class Vehicle {
 
     double speed;
 
-    void go()
+    public void go()
     {
         System.out.println("This vehicle is moving");
     }
