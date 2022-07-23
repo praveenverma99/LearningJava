@@ -1,7 +1,7 @@
-package com.praveen.encapsulation;
+package com.praveen.copyobjects;
+
 
 public class Main {
-
     public static void main(String[] args) {
 
         Car Hatcback = new Car("Maruti", "Swift", 2002);
@@ -14,5 +14,4 @@ public class Main {
 
 
     }
-
 }
