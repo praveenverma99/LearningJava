@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Vehicle[] Racers = {Maruti, Hero , Monster};
+        Vehicle[] Racers = {Maruti, Hero , Monster };
         for (Vehicle x : Racers) {
             x.go();
         }
